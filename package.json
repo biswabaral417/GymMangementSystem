@@ -1,0 +1,21 @@
+{
+  "name": "gymmangementsystem",
+  "version": "1.0.0",
+  "description": "test system for job",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"lsof -ti :9000 | xargs kill\" \"cd frontend && HTTPS=true SSL_CRT_FILE=../certs/sslCert/localhost.crt SSL_KEY_FILE=../certs/sslCert/localhost.decrypted.key npm start\" \"nodemon --delay 500ms backend/server.js\""
+  },
+  "author": "biswa baral",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.2",
+    "cookie-parser": "^1.4.6",
+    "crypto-js": "^4.2.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2",
+    "prisma": "^5.16.2"
+  }
+}
