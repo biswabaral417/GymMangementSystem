@@ -1,0 +1,41 @@
+<svg
+   width="188.53285mm"
+   height="92.687454mm"
+   viewBox="0 0 188.53285 92.687454"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs2">
+    <!-- Definitions removed for simplicity -->
+  </defs>
+  <g id="layer1" transform="translate(-11.545578,-26.307637)">
+    <!-- Barbell Paths -->
+    <path style="fill:#ffd5ad;stroke:#000000;stroke-width:8.098;stroke-opacity:1" d="m 26.03235,63.72884 158.9808,-0.311187" id="path371" />
+    <path style="fill:#ffd5ad;stroke:#000000;stroke-width:8.098;stroke-opacity:1" d="m 25.93988,36.926332 0.09225,54.19445" id="path373" />
+    <path style="fill:#ffd5ad;stroke:#000000;stroke-width:8.098;stroke-opacity:1" d="M 185.15222,36.922244 184.9216,90.726156" id="path375" />
+    <path style="fill:#ffd5ad;stroke:#000000;stroke-width:8.098;stroke-opacity:1" d="m 15.594298,47.368925 0.379465,32.305744" id="path377" />
+    <path style="fill:#ffd5ad;stroke:#000000;stroke-width:8.098;stroke-dasharray:none;stroke-opacity:1" d="m 196.02968,47.588987 -0.35302,31.932377" id="path379" />
+    <path style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:8.098;stroke-opacity:1" d="m 37.025498,26.632455 -0.0446,74.241855" id="path381" />
+    <path style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:8.098;stroke-opacity:1" d="m 174.51414,26.30841 0.0142,74.48234" id="path383" />
+
+    <!-- Centering Text -->
+    <text
+       xml:space="preserve"
+       transform="translate(0, 20)" 
+       style="font-size:20px; text-anchor:middle; fill:#000000; fill-opacity:1; stroke:#000000; stroke-width:2; stroke-dasharray:none; stroke-opacity:1">
+      <tspan x="124.106425" y="32" id="tspan2679">BARBEL</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       transform="translate(0, 20)" 
+       style="font-size:20px; text-anchor:middle; fill:#000000; fill-opacity:1; stroke:#000000; stroke-width:2; stroke-dasharray:none; stroke-opacity:1">
+      <tspan x="124.106425" y="65" id="tspan2681">FITNESS</tspan>
+    </text>
+    <text
+       xml:space="preserve"
+       transform="translate(0, 20)" 
+       style="font-size:20px; text-anchor:middle; fill:#000000; fill-opacity:1; stroke:#000000; stroke-width:2; stroke-dasharray:none; stroke-opacity:1">
+      <tspan x="124.106425" y="85" id="tspan2303">GYM</tspan>
+    </text>
+  </g>
+</svg>

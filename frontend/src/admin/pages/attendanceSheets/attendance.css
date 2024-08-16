@@ -1,0 +1,9 @@
+.AdttendanaceTable>thead>tr>th,.AdttendanaceTable>tbody>tr>td{
+border: 1px solid black;
+padding: 2px 5px;
+text-align: center;
+}
+.AdttendanaceTable{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}

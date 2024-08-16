@@ -1,0 +1,103 @@
+@media only screen and (max-width: 800px) {
+  .navBtn {
+    all: unset;
+    height: 35px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgb(98, 94, 94);
+    box-sizing: border-box;
+  }
+
+  #navUl.hidden {
+    display: none !important;
+  }
+
+  #navUl.visible {
+    width: 170px !important;
+    background: rgba(0, 0, 0, 0.764);
+  }
+
+  #navUl {
+    margin: 0;
+    display: block;
+    padding-left: 10px;
+    position: absolute;
+    border-bottom-right-radius: 30px;
+  }
+
+  .navUl > :last-child button {
+    border: none;
+    border-bottom-right-radius: 30px;
+  }
+  .hideDDBtn {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .hideDDBtn > p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    padding-right: 20px;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 40px;
+  }
+  .hideDDBtn:focus > p {
+    font-size: 40px;
+    text-shadow: 0px 0px 6px white;
+  }
+  .showNavDD {
+    all: unset;
+    background: rgb(2, 2, 2);
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .DDcontainer {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .md-block {
+    display: block !important;
+  }
+  .md-none {
+    display: none;
+  }
+  .navUl > li > a.active > button {
+    font-size: large;
+    background-color: #474747;
+  }
+  .navUl > li > nav > ul > li > a.active > button {
+    font-size: large;
+
+    background-color: #474747 !important;
+  }
+
+  .GymBannerContainer {
+    padding-right: 20px;
+  }
+  li > a > div {
+    width: 100% !important;
+    justify-content: space-between !important;
+  }
+}
+#todoNavCvd {
+  all: unset;
+  background: #00000000;
+}
+.alUnset {
+  all: unset;
+}

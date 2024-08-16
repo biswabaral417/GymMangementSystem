@@ -1,0 +1,21 @@
+.authContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.authBox{
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0);
+    height: fit-content;
+    width: 80%;
+    max-width: 780px;
+    border-radius: 20px;
+    background: #090920;
+    color: white;
+    padding: 40px;
+
+}
+#submitLoginBtn,
+#signUpPageLink, #loginPageLinkBtn,#submitSignUpBtn{
+  padding: 5px 20px;
+}

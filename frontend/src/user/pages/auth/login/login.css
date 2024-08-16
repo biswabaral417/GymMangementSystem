@@ -1,0 +1,34 @@
+.loginPageInputLabels {
+  display: inline-block;
+  font-size: 18px;
+  width: 200px;
+  padding: 10px 0px;
+}
+.loginPageInput {
+  display: inline-flex;
+  font-size: 18px;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+}
+#loginForm > div {
+  padding: 10px 0px;
+  width: 255px;
+  display: block;
+}
+
+#loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.DontHaveAccountLink {
+  font-size: 20px;
+  padding: 20px;
+  width: 100%;
+}
+.showHidePasswordLoginPage {
+  all: unset;
+  background: #000;
+}

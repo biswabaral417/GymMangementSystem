@@ -1,0 +1,24 @@
+#homebg,
+#contentRoot > div {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#homeBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:60dvh;
+  object-fit: contain;
+}
+
+.homeBgContainer {
+  position: absolute;
+}
+#homeRoot {
+  position: relative;
+  z-index: 1;
+  color: white;
+}

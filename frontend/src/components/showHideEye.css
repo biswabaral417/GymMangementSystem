@@ -1,0 +1,17 @@
+#ShowHideEyebtn{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:none;
+    cursor: pointer;
+    padding: 5px;
+    width:100%;
+    max-width: 40px;
+}
+#ShowHideEyebtn>img{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-color:none;
+}

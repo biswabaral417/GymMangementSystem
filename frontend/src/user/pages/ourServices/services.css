@@ -1,0 +1,34 @@
+.serviceArticle > p,
+.serviceArticle > h3 {
+  color: white;
+  text-align: center;
+}
+
+.serviceArticle > p {
+  padding-top: 20px;
+  font-size: 14px;
+}
+.serviceArticle > h3 {
+  font-size: 18px;
+}
+
+.serviceArticle {
+  padding: 10px 20px 50px 10px;
+  background: #4d4d4d26;
+  border-radius: 10px;
+  height: 450px;
+  max-width: 250px;
+}
+.servicesGridContainer {
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.servicesArticleImage {
+  width: 100%;
+  height: 50%;
+  
+}

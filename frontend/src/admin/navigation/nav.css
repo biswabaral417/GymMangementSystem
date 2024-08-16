@@ -1,0 +1,31 @@
+#adminNav {
+  background: #000;
+  padding-left: 20px;
+  width: 250px;
+  height: 100%;
+}
+#adminNav > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#adminNav > ul > li {
+  width: 100%;
+  padding: 5px 20px;
+  text-align: right;
+  border-bottom: 1px solid white;
+}
+
+#adminNav > ul > li > * > button {
+  all: unset;
+
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+#adminNav > ul > li > a.active > button {
+  text-decoration: underline;
+}
+#adminNav > ul > li > * > button:hover {
+  color: white;
+}

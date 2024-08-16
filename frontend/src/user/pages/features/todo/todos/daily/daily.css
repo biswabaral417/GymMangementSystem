@@ -1,0 +1,155 @@
+.dailyTodoItemContainer {
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0 0 20px 2px black;
+}
+.dailyTodoItemContainer:hover {
+  box-shadow: 0 0 20px 2px rgb(70, 70, 70);
+}
+.dailyTodoItemContainer > div > h1 {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.dailyTodoItemContainer > :last-child > p {
+  background: rgb(83, 83, 83);
+  padding: 10px 20px;
+  color: wheat;
+}
+
+.dailyTodoContainer {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.dailyTodoItemContainer {
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+}
+.dailyTodoItemContainer > div > h1 {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.dailyTodoItemContainer > :last-child > p {
+  background: rgb(83, 83, 83);
+  padding: 10px 20px;
+}
+.dailyTodoItemContainer > :last-child > :first-child {
+  height: 100%;
+  color: rgb(200, 200, 200);
+}
+.dailyTodoItemContainer > :last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.dailyTodoItemContainer > :first-child {
+  background-color: rgb(63, 63, 63);
+  color: rgb(220, 220, 220);
+  padding: 10px 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.dailyTodoItemContainer > :last-child > :first-child {
+  height: 180px;
+  color: rgb(185, 185, 185);
+}
+.dailyTodoItemContainer > :last-child > :last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+.dailyTodoItemContainer > :first-child {
+  background-color: rgb(63, 63, 63);
+  color: rgb(199, 199, 199);
+  padding: 10px 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.dailyAddBtn > button {
+  all: unset;
+  width: 100%;
+  height: 300px;
+  cursor: pointer;
+  box-shadow: inset 0 0 5px 5px rgb(101, 101, 101);
+}
+.dailyAddBtn > button > span {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.dailyAddBtn > button:hover > span {
+  scale: 1.5;
+  transition: scale 0.2s ease;
+}
+.dailyAddBtn > button:hover {
+  background: #5e5e5e;
+  box-shadow: inset 0 0 50px 40px rgb(50, 50, 50);
+}
+#todoinpdescription {
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+  background: #d6d6d6;
+  border-radius: 5px;
+}
+#todoinptitle {
+  width: 100%;
+  background: #d6d6d6;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#todoinptitle:focus {
+  outline: none;
+}
+#todoinpdescription:focus {
+  outline: none;
+}
+.notesTodoItemContainer {
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+  box-shadow: 0 0 20px 2px black;
+}
+.notesTodoItemContainer:hover {
+  box-shadow: 0 0 20px 2px rgb(70, 70, 70);
+}
+.notesTodoItemContainer > div > h1 {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.notesTodoItemContainer > :last-child > p {
+  background: rgb(83, 83, 83);
+  padding: 10px 20px;
+  color: wheat;
+  height: 100%;
+
+}
+
+.notesTodoItemContainer > :last-child > * {
+  height: 100%;
+  color: rgb(200, 200, 200);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.notesTodoItemContainer > :last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.notesTodoItemContainer > :first-child {
+  background-color: rgb(63, 63, 63);
+  color: rgb(220, 220, 220);
+  padding: 10px 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.notesTodoItemContainer > :last-child > :first-child {
+  height: 219px;
+  color: rgb(185, 185, 185);
+}
+

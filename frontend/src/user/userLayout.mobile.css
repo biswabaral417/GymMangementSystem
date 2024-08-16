@@ -1,0 +1,14 @@
+@media only screen and (max-width: 800px) {
+    #contentRoot {
+        background: #303030;
+        min-height: 100%;
+        box-shadow:
+        inset 0px 30px 70px 0px rgba(0, 0, 0),      
+        inset 0px -30px 70px 0px rgba(0, 0, 0),
+        inset 0px 0px 50px 100px rgba(0, 0, 0,0.45),
+        inset 0px 0px 70px 150px rgba(0, 0, 0,0.35),
+        inset 0px 0px 100px 200px rgba(0, 0, 0,0.25),
+        inset 0px 0px 120px 250px rgba(0, 0, 0,0.15);
+      }
+      
+}

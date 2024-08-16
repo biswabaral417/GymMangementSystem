@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3d890cd.css",
+    "main.js": "/static/js/main.bdc40479.js",
+    "static/css/706.a7019e10.chunk.css": "/static/css/706.a7019e10.chunk.css",
+    "static/js/706.8d100015.chunk.js": "/static/js/706.8d100015.chunk.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/home1.jpg": "/static/media/home1.a8f5c166ec478244cc9b.jpg",
+    "static/media/gymImg.png": "/static/media/gymImg.132fc3a9c4dffa1437e2.png",
+    "static/media/map.png": "/static/media/map.e5ec924a0a196f960f74.png",
+    "static/media/STZ.jpg": "/static/media/STZ.e00f57332547549d3ec0.jpg",
+    "static/media/Nutritionist.jpg": "/static/media/Nutritionist.39c9b30385e01d715e90.jpg",
+    "static/media/barbell.jpg": "/static/media/barbell.3b791e5b40fc5f7ebaf1.jpg",
+    "static/media/cunsultation.webp": "/static/media/cunsultation.339dea780b906e2c87d1.webp",
+    "static/media/groupFitness.webp": "/static/media/groupFitness.b0210ac36c14bd6ced8c.webp",
+    "static/media/motive.jpg": "/static/media/motive.64c88b3c5cbd7cffe9e2.jpg",
+    "static/media/personal-trainer.jpg": "/static/media/personal-trainer.1c2fdf5ed0a2ce9006d9.jpg",
+    "static/media/cardio.webp": "/static/media/cardio.384e81ff50d0fa9a3829.webp",
+    "static/media/yogaClasses.webp": "/static/media/yogaClasses.5d73fcd80fca3b670b8b.webp",
+    "static/media/barbelFitness.svg": "/static/media/barbelFitness.9225adeb267bcde3482ed3f00e9b7039.svg",
+    "index.html": "/index.html",
+    "static/media/eye-slash-fill.svg": "/static/media/eye-slash-fill.829fa698337e2d23ea5afde103264564.svg",
+    "static/media/eye-fill.svg": "/static/media/eye-fill.f711060777bc997c7cfaf9cb5f563806.svg",
+    "static/media/chevron-down.svg": "/static/media/chevron-down.1bb92797f14b051daa2594e9485d9f75.svg",
+    "main.a3d890cd.css.map": "/static/css/main.a3d890cd.css.map",
+    "main.bdc40479.js.map": "/static/js/main.bdc40479.js.map",
+    "706.a7019e10.chunk.css.map": "/static/css/706.a7019e10.chunk.css.map",
+    "706.8d100015.chunk.js.map": "/static/js/706.8d100015.chunk.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3d890cd.css",
+    "static/js/main.bdc40479.js"
+  ]
+}

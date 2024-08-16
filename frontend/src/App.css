@@ -1,38 +1,67 @@
-.App {
+.d_flx {
+  display: flex !important;
+}
+.jc_sb {
+  justify-content: space-between !important;
+}
+.jc_se {
+  justify-content: space-evenly !important;
+}
+.jc_c {
+  justify-content: center !important;
+}
+.ai_c {
+  align-items: center !important;
+}
+
+.text_c {
+  text-align: center !important;
+}
+.d_blk {
+  display: block !important;
+}
+
+.flxW {
+  flex-wrap: wrap;
+}
+.flxDR{
+  flex-direction: row;
+}
+.flxDC{
+  flex-direction: column;
+}
+.tac {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hidden {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.visible {
+  display: block;
+}
+.Pos_Rel {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.m_a{
+  margin: auto;
+}
+.posA{
+  position: absolute;
 }
 
-.App-link {
-  color: #61dafb;
+.d_grid{
+  display: grid;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#modal_wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(75, 75, 75, 0.75);
 }

@@ -1,0 +1,42 @@
+.loginPageInputLabels {
+  display: inline-block;
+  font-size: 18px;
+  width: 200px;
+  padding: 10px 0px;
+}
+
+.loginPageInput {
+  display: inline-flex;
+  font-size: 18px;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+}
+
+#loginForm > div {
+  padding: 10px 0px;
+  width: 255px;
+  display: block;
+}
+
+#loginForm {
+  position: absolute;
+  background: red;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  left: 50%;
+  width: 400px;
+  transform: translate(-50%, 40%);
+}
+
+.showHidePasswordLoginPage {
+  all: unset;
+  background: #000;
+}
+
+.AdminLoginFormContainer {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}

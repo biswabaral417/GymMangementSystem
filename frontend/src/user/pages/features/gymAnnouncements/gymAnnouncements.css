@@ -1,0 +1,15 @@
+.announcementContainer{
+grid-template-columns: repeat(auto-fit, minmax(250px,300px));
+width: 100%;
+gap: 20px;
+padding: 20px;
+justify-content: center;
+}
+
+.announcementItemContainer {
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0 0 20px 2px rgb(155, 155, 155);
+    background: #929292;
+    
+}

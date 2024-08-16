@@ -1,0 +1,20 @@
+.signUpInputLabel {
+  display: block;
+}
+#RegisterForm > div > div {
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+#RegisterForm > div > * {
+  padding: 5px;
+}
+
+#RegisterForm > div > div > div > button {
+  height: 20px;
+  padding: 0;
+}
+
+#RegisterForm {
+  padding: 20px;
+}

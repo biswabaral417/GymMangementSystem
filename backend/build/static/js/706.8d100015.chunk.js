@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[706],{541:(e,a,c)=>{c.r(a),c.d(a,{default:()=>t});c(43);const n=c.p+"static/media/home1.a8f5c166ec478244cc9b.jpg";var s=c(579);function t(){return(0,s.jsx)("img",{id:"homebg",src:n,loading:"lazy",alt:"Background",className:"homeBgImage"})}}}]);
+//# sourceMappingURL=706.8d100015.chunk.js.map
