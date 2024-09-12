@@ -16,6 +16,8 @@ import Membership from './pages/membership/Membership'
 import './userLayout.css'
 import './userLayout.mobile.css'
 import MainContextProvider from './contexts/mainContext'
+import Recomendation from './recomendations/Recomendation'
+import GetMembership from './MembershipForm/GetMembership'
 export default function UserLayout() {
     return (
         <>
@@ -35,6 +37,8 @@ export default function UserLayout() {
                         <Route path='/user/services' element={<Services />} />
                         <Route path='/user/Aboutus' element={<AboutUs />} />
                         <Route path='/user/Membership' element={<Membership />} />
+                        <Route path='/user/dietrecomendations' element={<Recomendation />} />
+                        <Route path='/user/getMembership' element={<GetMembership />} />
                         <Route path='*' element={<PageNotFound />} />
                     </Routes>
                 </div>

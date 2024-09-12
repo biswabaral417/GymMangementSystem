@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt');
 const generateAuthTokens = require('../../middlewares/generateAuthTokens');
 
 const login = async (req, res) => {
+    console.log("received")
     const { Phone, Password } = req.body;
     try {
         const existingUser = await User.findOne({ Phone });
@@ -34,3 +35,4 @@ const login = async (req, res) => {
 };
 
 module.exports = login;
+

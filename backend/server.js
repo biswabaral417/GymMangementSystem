@@ -35,11 +35,10 @@ app.get(/^\/(?!api).*/, function (req, res) {
 });
 
 const userRoutes = require('./router/userRoutes')
-const adminRoutes=require('./router/adminRoutes')
+const adminRoutes=require('./router/adminRoutes');
 
 app.use('/api/user', userRoutes);
 app.use('/api/admin', adminRoutes);
-
 
 const PORT = process.env.PORT;
 server.listen(PORT, () => {

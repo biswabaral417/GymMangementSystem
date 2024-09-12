@@ -4,6 +4,7 @@ import UserAccount from './UserAccount'
 import hideDD from './functions/hideDD'
 import NavAuthStatus from './NavAuthStatus'
 import autoHideNav from './functions/autoHideNav'
+import NavhasMembership from './NavhasMembership'
 
 export default function Nav() {
     useEffect(() => {
@@ -37,6 +38,7 @@ export default function Nav() {
                     </NavLink>
                 </li>
                 <NavAuthStatus />
+                <NavhasMembership/>
                 <li>
                     <UserAccount />
                 </li>

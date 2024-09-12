@@ -30,7 +30,30 @@ const userSchema = new mongoose.Schema({
     },
   ],
   memberships: {
-    type: String,
+    type:{
+     type:String 
+    },
+    time:{
+      type:String
+    },
+    memberDetails:{
+      recentCheckedWeight:{
+        type:Number
+      },
+      targetWeight:{
+        type:Number
+      },
+      height:{
+        type:Number
+      },
+      gender:{
+        type:Number
+      },
+      age:{
+        type:Number
+      },
+      
+    }
   },
   attendence:
     [{
