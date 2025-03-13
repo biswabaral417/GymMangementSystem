@@ -1,6 +1,4 @@
-const recommendDiets = require("../../AI/codes/recommendDiets");
-
-
+const GenerateMealPlan = require("../../GYMAI/AI/GenerateMealPlan");
 
 
 const getRecommendations = async (req, res) => {
@@ -14,7 +12,7 @@ const getRecommendations = async (req, res) => {
     ];
 
     try {
-        const recommendations = await recommendDiets(newUser);
+        const recommendations = await GenerateMealPlan(newUser);
         res.json(recommendations);
     } catch (error) {
         console.error('Error getting recommendations:', error);

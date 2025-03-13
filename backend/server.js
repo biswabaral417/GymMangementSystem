@@ -11,6 +11,7 @@ app.use(cors({
   credentials: true // Allow credentials (cookies, authorization headers, etc.)
 }));
 
+
 const fs = require("fs");
 const https = require("https");
 // const http=require("http")
@@ -44,3 +45,5 @@ const PORT = process.env.PORT;
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT} (HTTPS)`);
 });
+
+
